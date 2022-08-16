@@ -14,9 +14,9 @@ document.getElementById('btn-submit').addEventListener('click', function(){
     //Danger: Do not verify email password on the client site
     // Step-4: verify email and password and check whether valid user or not
     if(email === 'daddy@money.com' && password === 'baap'){
-        console.log('valid user');
+        window.location.href = 'bank.html';
     }
     else{
-        console.log('invalid user')
+        alert('Tui password vhule gesos!! Toke ami teijjo sontan gosona korlam.');
     }
 })
